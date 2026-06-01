@@ -4,6 +4,12 @@
 
 An interactive Linux C application that uses **persistent homology** to detect network intrusions (DDoS, port scans, slow exfiltration) in real time. TIDS transforms network flow features into high‑dimensional point clouds, computes Vietoris‑Rips filtrations, and visualizes topological invariants ($H_0$ components and $H_1$ loops) via a **GTK3** / **Cairo** graphical interface.
 
+## Screenshot
+
+![TIDS Main Interface](screenshot.png)
+
+*The TIDS graphical interface showing the Vietoris‑Rips simplicial graph (left), persistence diagram (middle), and barcode plot (right) while analyzing a simulated DDoS attack.*
+
 ## Repository Contents
 
 ```
