@@ -2,7 +2,14 @@
 
 **Find cyberattacks by their shape, not signatures.**
 
+[![Language](https://img.shields.io/badge/language-C99-blue.svg)](https://en.wikipedia.org/wiki/C99)
+[![Platform](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](https://www.linux.org)
+[![GUI](https://img.shields.io/badge/GUI-GTK3-green.svg)](https://gtk.org)
+[![Topic](https://img.shields.io/badge/topic-Persistent%20Homology-orange.svg)](https://en.wikipedia.org/wiki/Persistent_homology)
 [![Paper](https://img.shields.io/badge/paper-pdf-blue.svg)](paper.pdf)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![Research](https://img.shields.io/badge/research-Cybersecurity-red.svg)](https://arxiv.org)
+[![Made with](https://img.shields.io/badge/Made%20with-C%20&%20GTK3-magenta.svg)](https://gtk.org)
 
 An interactive Linux C application that uses **persistent homology** to detect network intrusions (DDoS, port scans, slow exfiltration) in real time. TIDS transforms network flow features into high‑dimensional point clouds, computes Vietoris‑Rips filtrations, and visualizes topological invariants ($H_0$ components and $H_1$ loops) via a **GTK3** / **Cairo** graphical interface.
 
@@ -125,7 +132,7 @@ If you use TIDS in academic work, please cite the associated research monograph:
 
 ## License
 
-(Choose your license – e.g., MIT, GPL‑3.0. If not decided, you can write “All rights reserved” temporarily.)
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details. (If you haven't added a LICENSE file yet, you can do so easily via GitHub.)
 
 ## Contact & Contributions
 
