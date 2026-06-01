@@ -2,6 +2,8 @@
 
 **Find cyberattacks by their shape, not signatures.**
 
+[![Paper](https://img.shields.io/badge/paper-pdf-blue.svg)](paper.pdf)
+
 An interactive Linux C application that uses **persistent homology** to detect network intrusions (DDoS, port scans, slow exfiltration) in real time. TIDS transforms network flow features into high‑dimensional point clouds, computes Vietoris‑Rips filtrations, and visualizes topological invariants ($H_0$ components and $H_1$ loops) via a **GTK3** / **Cairo** graphical interface.
 
 ## Screenshot
@@ -18,7 +20,7 @@ An interactive Linux C application that uses **persistent homology** to detect n
 ├── main.c            # Program entry point & argument parsing
 ├── gui.c / gui.h     # GTK3 graphical interface & Cairo rendering
 ├── tda.c / tda.h     # Persistent homology core (boundary matrix reduction)
-├── paper.pdf         # Full research monograph (preprint)
+├── paper.pdf         # Full research monograph (preprint) – [click to view](paper.pdf)
 └── index.html        # Optional local HTML overview
 ```
 
@@ -119,7 +121,7 @@ Because persistent homology is **Lipschitz stable** (small noise does not cause 
 
 If you use TIDS in academic work, please cite the associated research monograph:
 
-> Jean‑Francois Lachance‑Caumartin. *Topological Intrusion Detection System: Persistent Homology of High‑Dimensional Network Flow Point Clouds*. Preprint, 2026.
+> Jean‑Francois Lachance‑Caumartin. *Topological Intrusion Detection System: Persistent Homology of High‑Dimensional Network Flow Point Clouds*. Preprint, 2026. [[PDF](paper.pdf)]
 
 ## License
 
