@@ -7,6 +7,7 @@
 [![GUI](https://img.shields.io/badge/GUI-GTK3-green.svg)](https://gtk.org)
 [![Topic](https://img.shields.io/badge/topic-Persistent%20Homology-orange.svg)](https://en.wikipedia.org/wiki/Persistent_homology)
 [![Paper](https://img.shields.io/badge/paper-pdf-blue.svg)](paper.pdf)
+[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.32536887-blue.svg)](https://doi.org/10.6084/m9.figshare.32536887)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![Research](https://img.shields.io/badge/research-Cybersecurity-red.svg)](https://arxiv.org)
 [![Made with](https://img.shields.io/badge/Made%20with-C%20&%20GTK3-magenta.svg)](https://gtk.org)
@@ -128,7 +129,7 @@ Because persistent homology is **Lipschitz stable** (small noise does not cause 
 
 If you use TIDS in academic work, please cite the associated research monograph:
 
-> Jean‑Francois Lachance‑Caumartin. *Topological Intrusion Detection System: Persistent Homology of High‑Dimensional Network Flow Point Clouds*. Preprint, 2026. [[PDF](paper.pdf)]
+> Jean‑Francois Lachance‑Caumartin. *Topological Intrusion Detection System: Persistent Homology of High‑Dimensional Network Flow Point Clouds*. Preprint, 2026. DOI: [10.6084/m9.figshare.32536887](https://doi.org/10.6084/m9.figshare.32536887) [[PDF](paper.pdf)]
 
 ## License
 
