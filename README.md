@@ -1,4 +1,8 @@
-# TIDS - Topological Intrusion Detection System
+<div align="center">
+
+<a href="https://github.com/effjy/tids/"><img src="titles/tids-title.svg" height="52" alt="TIDS"></a>
+
+Topological Intrusion Detection System
 
 **Find cyberattacks by their shape, not signatures.**
 
@@ -11,6 +15,8 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![Research](https://img.shields.io/badge/research-Cybersecurity-red.svg)](https://arxiv.org)
 [![Made with](https://img.shields.io/badge/Made%20with-C%20&%20GTK3-magenta.svg)](https://gtk.org)
+
+</div>
 
 An interactive Linux C application that uses **persistent homology** to detect network intrusions (DDoS, port scans, slow exfiltration) in real time. TIDS transforms network flow features into high‑dimensional point clouds, computes Vietoris‑Rips filtrations, and visualizes topological invariants ($H_0$ components and $H_1$ loops) via a **GTK3** / **Cairo** graphical interface.
 
